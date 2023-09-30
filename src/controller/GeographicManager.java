@@ -33,7 +33,7 @@ public class GeographicManager extends Menu<String> {
         countryRepository = new GeographicRepository();
         validate = new Library();
         // demo
-        countryList.add(new Country("Nice, Amazingly, Fantastic", "VN", "Viet Name", 331690));    
+        countryList.add(new Country("Nice, Amazingly, Fantastic", "VN", "Viet Nam", 331690));    
         countryList.add(new Country("Nice", "IDN", "Indonesia", 1905000));
         countryList.add(new Country("Good", "JP", "Nhat Ban", 377973));
         
